@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SDC-1 QuickStart</string>
+    <string name="device_address_desc">Device address:</string>
+    <string name="action_desc">Action:</string>
+    <string name="action">%1$d (%2$s)</string>
+    <string name="rssi_desc">RSSI:</string>
+    <string name="rssi">%1$d dBm</string>
+    <string-array name="action_descriptions">
+        <item>rotate_right_side_up_clockwise</item>
+        <item>rotate_right_side_up_counterclockwise</item>
+        <item>rotate_sideways_clockwise</item>
+        <item>rotate_sideways_counterclockwise</item>
+        <item>rotate_upside_down_clockwise</item>
+        <item>rotate_upside_down_counterclockwise</item>
+        <item>touchpad_swipe_up</item>
+        <item>touchpad_swipe_down</item>
+        <item>touchpad_swipe_left</item>
+        <item>touchpad_swipe_right</item>
+        <item>touchpad_press_north</item>
+        <item>touchpad_press_south</item>
+        <item>touchpad_press_east</item>
+        <item>touchpad_press_west</item>
+        <item>touchpad_press_center</item>
+        <item>touchpad_long_press_north</item>
+        <item>touchpad_long_press_south</item>
+        <item>touchpad_long_press_east</item>
+        <item>touchpad_long_press_west</item>
+        <item>touchpad_long_press_center</item>
+        <item>touchpad_scroll_clockwise</item>
+        <item>touchpad_scroll_counterclockwise</item>
+        <item>reserved</item>
+        <item>reserved</item>
+        <item>spin_wake_up</item>
+    </string-array>
+    <string name="unknown_action_description">unknown</string>
+</resources>

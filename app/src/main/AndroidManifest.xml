@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spinremote.sdc1_quickstart">
+
+    <!-- We make the App only available for BLE-capable devices (optional) -->
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+    <!-- We need the BLUETOOTH permission to perform any Bluetooth communication (required) -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <!-- We need the BLUETOOTH_ADMIN permission to initiate a device discovery (required) -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <!-- Allows an app to access approximate location. Necessary on Android 6.0+ when searching -->
+    <!-- for BLE devices (optional, only when scanning) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.spinremote.sdc1_quickstart.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
